@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fast-api-test"
+version = "0.1.0"
+description = ""
+authors = ["Zcorp"]
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+uvicorn = "^0.12.2"
+fastapi = "^0.61.2"
+pydantic = "^1.7.2"
+ujson = "^4.0.1"
+python-multipart = "^0.0.5"
+orjson = "^3.4.3"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.790"
+flake8 = "^3.8.4"
+pytest = "^6.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
