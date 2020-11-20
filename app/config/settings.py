@@ -2,7 +2,7 @@ from pydantic import BaseSettings
 
 
 class Settings(BaseSettings):
-    host: str = 'localhost'
+    host: str = '0.0.0.0'
     port: int = 15232
 
     class Config:
